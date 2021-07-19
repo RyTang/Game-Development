@@ -1,10 +1,10 @@
-#Moley
+# Moley
 
 [Moley Starting Picture]()
 
 Hi welcome to the Moley Project. Under this all are all different aspects of the game that I thought was worth mentioning. Feel free to go through any of the parts of the project you might be interested in.
 
-##Table of Contents:
+## Table of Contents:
 [Motive behind Game](#reasoning-behind-the-game)
 [Player Controls](#player-controls)
 [How Map Generation](#map-generation)
@@ -12,13 +12,13 @@ Hi welcome to the Moley Project. Under this all are all different aspects of the
 
 
 
-##Reasoning Behind the Game
+## Reasoning Behind the Game
 
 
-##Player Controls
+## Player Controls
 
 
-##Map Generation
+## Map Generation
 
 [16x16 Map Layout]()
 
