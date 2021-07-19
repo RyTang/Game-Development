@@ -5,9 +5,9 @@
 Hi welcome to the Moley Project. Under this all are all different aspects of the game that I thought was worth mentioning. Feel free to go through any of the parts of the project you might be interested in.
 
 ## Table of Contents:
-[Motive behind Game](#reasoning-behind-the-game)
-[Player Controls](#player-controls)
-[How Map Generation](#map-generation)
+1. [Motive behind Game](#reasoning-behind-the-game)
+1. [Player Controls](#player-controls)
+1. [How Map Generation](#map-generation)
 
 
 
