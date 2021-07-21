@@ -24,7 +24,14 @@ Hi, welcome to the Moley Project. Under this all are all different aspects of th
 
 ## Map Generation
 <p align="center">
-<img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/16x16Layout.JPG" width="500" height="500"/>
+
+<figure>
+<img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/4x4Layout.JPG" width="500" height="500"/>
+
+<figcaption align ="center"><b>4x4 Layout of the Game's Map</b>
+</figcaption>
+
+</figure>
 </p>
 
 
