@@ -4,7 +4,7 @@
 
 Project Timeline( Jan 2021 - Current) 
 
-Updates will made along the way. Tune in from time to time if you want to.
+Updates will made along the way. Tune in from time to time if you want to :D.
 
 Hi, welcome to the Moley Project. Under this all are all different aspects of the game that I thought was worth mentioning. Feel free to go through any of the parts of the project you might be interested in.
 
