@@ -26,7 +26,7 @@ Moley is an Android (currently) spelunky-esh game, if you're familiar with the c
 
 ## Motive Behind the Game
 
-There is no glorious reasoning behind this game honestly. This project is just a passion project that I have decided to do to test my limits in learning new things in Unity Engine. Experiencing all the wide aspects in putting in my problem solving skills and just constantly pushing myself to learn is interesting. I always enjoyed the concept of procedural generation in a gaming prospect, the idea of always jumping in and experiencing something different each time. Never knowing what you might experience in the next play-through. Thus, this heavily inspired me to try to push myself to create something similar to Spelunky (I greatly adored the concept behind the game). Plans for this project, is to port it onto the Google Play Store ,when it's in green phase, for people to try out.
+There is no glorious reasoning behind this game honestly. This project is a passion project that I have decided to do to test my limits in learning new things. Experiencing all the wide aspects in putting in my problem solving skills and learning things regarding Game Development interests me as a side hobby. I always enjoyed the concept of procedural generation in a gaming prospect, the idea of always jumping in and experiencing something different each time never knowing what you might experience in the next play-through. Thus, this heavily inspired me to try to push myself to create something similar to Spelunky (I greatly adored the concept behind the game). Plans for this project, is to port it onto the Google Play Store ,when it's in green phase, for people to try out.
 
 ## Player Controls
 
