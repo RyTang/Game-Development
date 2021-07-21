@@ -41,3 +41,25 @@ So currently the game follows a very similar construct to Spelunky. Each level i
 There is a controller that takes care of the whole level generation. It starts by randomly selecting one of the topmost rooms as the starting room; this is where the player will begin. The controller has access to several room templates of varying entrances. It will then randomly choose one as the starting room, furthermore, it will then randomly choose a direction from left, right and down to move to. It will then move in that direction. It'll then repeat this process trying to build a connecting path to one of the bottommost rooms, which will be declared as the exit room. The exit will spawn in this room. Along the way, if the controller happens to bump to the boundaries or an existing rooms it'll move downwards instead. There are other factors that are considered but they won't be mentioned here, as it can get quite messy. After the pathway is constructed, the controller then signals to the blocks of rooms unfilled to go choose a random from the templates without regards to whether or not the paths are connecting. This is also when the controller might decide to spawn Special rooms (currently not added in the game yet) in the map.
 
 So carrying on, after each room have been decided. Each block on the map will then be allowed change according to their surroundings. Each block will then a chance to spawn a special block depending on their individual chances. Furthermore monsters will also have a chance to spawn in each room depending on location or room they're in. 
+
+Below are illustrations of how it might look:
+
+<p align="center">
+
+<img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/Path_Generation.JPG" width="500" height="500"/>
+
+</p>
+
+<p align="center">
+<b>Path is generated</b>
+</p>
+
+<p align="center">
+
+<img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/CompletedMap.JPG" width="500" height="500"/>
+
+</p>
+
+<p align="center">
+Fully Completed Map Generation
+</p>
