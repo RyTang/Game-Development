@@ -24,7 +24,9 @@ Hi, welcome to the Moley Project. Under this all are all different aspects of th
 
 ## Map Generation
 
-<p align="center"> ![16x16 Map Layout](Images/16x16Layout.JPG) </p>
+<p align="center">
+![16x16 Map Layout](Images/16x16Layout.JPG) 
+ </p>
 
 
 So currently the game follows a very similar construct to Spelunky. Each level is divided into 4x4 cube size rooms (That's 16 rooms if you needed help counting). Each room has a current dimension of 10x10 blocks. The Level Generation controller begins with one of the topmost Rooms being randomly selected as the starting room, this is marked as where the player will begin. Then at that spot a random room template will be selected and spawned. After spawning, it'll then randomly choose one of the adjacent rooms to move to and built another room with connecting entrances. It'll repeats the steps with each having a chance to go one row downwards, if it hits the side of the map border or an already built room it'll built downwards instead. This will continue until it reaches one of the bottommost rooms and that will be marked as the final room, where the exit will then spawn.  Then any of the 16 rooms that aren't currently filled will select a random room template to spawn, these rooms do not need to connect to the original rooms as they are just used to fill up the remaining space. This is also when the Level Generation Control might spawn Special rooms (currently not added in the game yet) in the map.
