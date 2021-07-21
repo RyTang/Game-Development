@@ -46,6 +46,7 @@ There is no glorious reasoning behind this game honestly. This project is a pass
 </p>
 
 
+
 So currently the game follows a very similar construct to Spelunky. Each level is divided into 4x4 cube size rooms (That's 16 rooms if you needed help counting). Each room has a current dimension of 10x10 blocks. 
 There is a controller that takes care of the whole level generation. It starts by randomly selecting one of the topmost rooms as the starting room; this is where the player will begin. The controller has access to several room templates of varying entrances. It will then randomly choose one as the starting room, furthermore, it will then randomly choose a direction from left, right and down to move to. It will then move in that direction. It'll then repeat this process trying to build a connecting path to one of the bottommost rooms, which will be declared as the exit room. The exit will spawn in this room. Along the way, if the controller happens to bump to the boundaries or an existing rooms it'll move downwards instead. There are other factors that are considered but they won't be mentioned here, as it can get quite messy. The general gist of the level generation are all mentioned here. After the pathway is constructed, the controller then signals to the blocks of rooms unfilled to go choose a random from the templates without regards to whether or not the paths are connecting. This is also when the controller might decide to spawn Special rooms (currently not added in the game yet) in the map.
 
@@ -62,6 +63,8 @@ Below are illustrations of how it might look:
 <p align="center">
 <b>Path Generated</b>
 </p>
+
+
 
 <p align="center">
 
