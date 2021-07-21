@@ -24,6 +24,8 @@ Hi, welcome to the Moley Project. Under this all are all different aspects of th
 
 ## Map Generation
 
+**This is Nerd Talk Territory if you're interested in the general gist of how Map Generation works in this game**
+
 <p align="center">
 
 <img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/4x4Layout.JPG" width="500" height="500"/>
@@ -34,6 +36,8 @@ Hi, welcome to the Moley Project. Under this all are all different aspects of th
 General 4x4 Layout of the Game's Map
 </p>
 
-So currently the game follows a very similar construct to Spelunky. Each level is divided into 4x4 cube size rooms (That's 16 rooms if you needed help counting). Each room has a current dimension of 10x10 blocks. The Level Generation controller begins with one of the topmost Rooms being randomly selected as the starting room, this is marked as where the player will begin. Then at that spot a random room template will be selected and spawned. After spawning, it'll then randomly choose one of the adjacent rooms to move to and built another room with connecting entrances. It'll repeats the steps with each having a chance to go one row downwards, if it hits the side of the map border or an already built room it'll built downwards instead. This will continue until it reaches one of the bottommost rooms and that will be marked as the final room, where the exit will then spawn.  Then any of the 16 rooms that aren't currently filled will select a random room template to spawn, these rooms do not need to connect to the original rooms as they are just used to fill up the remaining space. This is also when the Level Generation Control might spawn Special rooms (currently not added in the game yet) in the map.
 
-So carrying on, after each room have been decided. Each block on the map will then generate according to the rooms selected. Each block will have a chance to spawn a special block depending on their individual chances. (I'll have to adjust parts of this to ensure that it scales with game difficulty). Furthermore monsters will also have a chance to spawn in each room. 
+So currently the game follows a very similar construct to Spelunky. Each level is divided into 4x4 cube size rooms (That's 16 rooms if you needed help counting). Each room has a current dimension of 10x10 blocks. 
+There is a controller that takes care of the whole level generation. It starts by randomly selecting one of the topmost rooms as the starting room; this is where the player will begin. The controller has access to several room templates of varying entrances. It will then randomly choose one as the starting room, furthermore, it will then randomly choose a direction from left, right and down to move to. It will then move in that direction. It'll then repeat this process trying to build a connecting path to one of the bottommost rooms, which will be declared as the exit room. The exit will spawn in this room. Along the way, if the controller happens to bump to the boundaries or an existing rooms it'll move downwards instead. There are other factors that are considered but they won't be mentioned here, as it can get quite messy. After the pathway is constructed, the controller then signals to the blocks of rooms unfilled to go choose a random from the templates without regards to whether or not the paths are connecting. This is also when the controller might decide to spawn Special rooms (currently not added in the game yet) in the map.
+
+So carrying on, after each room have been decided. Each block on the map will then be allowed change according to their surroundings. Each block will then a chance to spawn a special block depending on their individual chances. Furthermore monsters will also have a chance to spawn in each room depending on location or room they're in. 
