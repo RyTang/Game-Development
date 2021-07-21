@@ -8,6 +8,8 @@ Updates will made along the way. Tune in from time to time if you want to :D.
 
 Hi, welcome to the Moley Project. Under this all are all different aspects of the game that I thought was worth mentioning. Feel free to go through any of the parts of the project you might be interested in.
 
+Moley is an Android (currently) spelunky-esh game, if you're familiar with the concept of Spelunky then you aren't too far off in imagining how it's like except with some twists. It's a duo-project, where it's currently split into visual and etc. 
+
 <p align="center">
 
 <img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/InGame.JPG" width="700" height="350"/>
@@ -15,15 +17,16 @@ Hi, welcome to the Moley Project. Under this all are all different aspects of th
 </p>
 
 ## Table of Contents:
-1. [Motive behind Game](#reasoning-behind-the-game)
+1. [Motive behind Game](#motive-behind-the-game)
 1. [Player Controls](#player-controls)
 1. [How Map Generation Works](#map-generation)
 
 
 
 
-## Reasoning Behind the Game
+## Motive Behind the Game
 
+There is no glorious reasoning behind this game honestly. This project is just a passion project that I have decided to do to test my limits in learning new things in Unity Engine. Experiencing all the wide aspects in putting in my problem solving skills and just constantly pushing myself to learn is interesting. I always enjoyed the concept of procedural generation in a gaming prospect, the idea of always jumping in and experiencing something different each time. Never knowing what you might experience in the next play-through. Thus, this heavily inspired me to try to push myself to create something similar to Spelunky (I greatly adored the concept behind the game). Plans for this project, is to port it onto the Google Play Store ,when it's in green phase, for people to try out.
 
 ## Player Controls
 
