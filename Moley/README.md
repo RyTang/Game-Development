@@ -10,7 +10,7 @@ Hi, welcome to the Moley Project. Under this all are all different aspects of th
 
 <p align="center">
 
-<img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/InGame.JPG" width="500" height="250"/>
+<img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/InGame.JPG" width="700" height="350"/>
 
 </p>
 
