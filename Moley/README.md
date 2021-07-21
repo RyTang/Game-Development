@@ -30,11 +30,9 @@ Hi, welcome to the Moley Project. Under this all are all different aspects of th
 
 <img src="https://github.com/RyTang/Game-Development/blob/main/Moley/Images/4x4Layout.JPG" width="500" height="500"/>
 
+<b>General 4x4 Layout of the Game's Map</b>
 </p>
 
-<p align="center">
-General 4x4 Layout of the Game's Map
-</p>
 
 
 So currently the game follows a very similar construct to Spelunky. Each level is divided into 4x4 cube size rooms (That's 16 rooms if you needed help counting). Each room has a current dimension of 10x10 blocks. 
@@ -51,7 +49,7 @@ Below are illustrations of how it might look:
 </p>
 
 <p align="center">
-<b>Path is generated</b>
+<b>Path Generated</b>
 </p>
 
 <p align="center">
@@ -61,5 +59,5 @@ Below are illustrations of how it might look:
 </p>
 
 <p align="center">
-Fully Completed Map Generation
+<b>Fully Completed Map Generation</b>
 </p>
